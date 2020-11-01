@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    let image = UIImage(named: "md5.jpg", in: .main, with: nil)!
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, MD5!")
+                .padding()
+            Image(uiImage: image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        }
     }
 }
 

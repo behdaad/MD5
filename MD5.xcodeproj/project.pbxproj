@@ -11,6 +11,7 @@
 		1AD2F4D4254CAF05007BC158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2F4D3254CAF05007BC158 /* ContentView.swift */; };
 		1AD2F4D6254CAF06007BC158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2F4D5254CAF06007BC158 /* Assets.xcassets */; };
 		1AD2F4D9254CAF06007BC158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2F4D8254CAF06007BC158 /* Preview Assets.xcassets */; };
+		1AD2F4E4254CB1BB007BC158 /* md5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2F4E3254CB1BB007BC158 /* md5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1AD2F4D5254CAF06007BC158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD2F4D8254CAF06007BC158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AD2F4DA254CAF06007BC158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD2F4E3254CB1BB007BC158 /* md5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = md5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				1AD2F4D1254CAF05007BC158 /* MD5App.swift */,
 				1AD2F4D3254CAF05007BC158 /* ContentView.swift */,
 				1AD2F4D5254CAF06007BC158 /* Assets.xcassets */,
+				1AD2F4E3254CB1BB007BC158 /* md5.jpg */,
 				1AD2F4DA254CAF06007BC158 /* Info.plist */,
 				1AD2F4D7254CAF06007BC158 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD2F4E4254CB1BB007BC158 /* md5.jpg in Resources */,
 				1AD2F4D9254CAF06007BC158 /* Preview Assets.xcassets in Resources */,
 				1AD2F4D6254CAF06007BC158 /* Assets.xcassets in Resources */,
 			);
@@ -269,7 +273,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MD5/Preview Content\"";
-				DEVELOPMENT_TEAM = 39RH654AZW;
+				DEVELOPMENT_TEAM = VCXRYZKK2U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MD5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.behdad.md5.MD5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.behdad.md5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MD5/Preview Content\"";
-				DEVELOPMENT_TEAM = 39RH654AZW;
+				DEVELOPMENT_TEAM = VCXRYZKK2U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MD5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.behdad.md5.MD5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.behdad.md5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
